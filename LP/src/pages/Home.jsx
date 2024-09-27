@@ -1,4 +1,4 @@
-import bg1 from '../assets/image/bg1.jpg'
+
 import calamansi from '../assets/image/calamansi.jpg'
 import barney from '../assets/image/barney.jpg'
 import boss from '../assets/image/boss.jpg'
@@ -10,7 +10,7 @@ function Home(){
         <div>
         <section className=" container 1pic relative mx-auto max-w-85 bg-white ">
           <div className="text-blue-500 relative" >
-              <img src={bg1} className=" h-[95vh] w-full "/>
+              <img src='' className=" h-[95vh] w-full "/>
                   <div className="absolute inset-0 flex-col flex items-center justify-center">
                    <p className="text-emerald-300 text-5xl font-bold">Welcome</p>
                    <p className="text-emerald-300 text-5xl font-bold mt-4">to JJM soap and detergents manufacturing</p>
