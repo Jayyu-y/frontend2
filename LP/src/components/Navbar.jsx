@@ -15,7 +15,7 @@ function Navbar(){
           <li>
           <details>
            <summary>Products</summary>
-             <ul className="bg-base-100 rounded-t-none p-2">
+             <ul className="bg-base-200 rounded-t-none p-3">
                 <li><a href="">bobo1</a></li>
                 <li><a href="">bobo2</a></li>
                 <li><a href="">bobo3</a></li>
@@ -25,7 +25,7 @@ function Navbar(){
           <li><Link to="2" smooth={true} duration={1000}>Our features</Link></li>
           <li><Link to="3" smooth={true} duration={1000}>About</Link></li>
           <li><Link to="4" smooth={true} duration={1000}>Mission</Link></li>
-          <li><Link to="5w" smooth={true} duration={1000}>Contact Us</Link></li>
+          <li><Link to="5" smooth={true} duration={1000}>Contact Us</Link></li>
           </ul>
       </div>
     

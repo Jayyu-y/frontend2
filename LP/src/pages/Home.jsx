@@ -1,4 +1,4 @@
-import b2 from '../assets/image/b2.jpg'
+import bg1 from '../assets/image/bg1.jpg'
 import calamansi from '../assets/image/calamansi.jpg'
 import barney from '../assets/image/barney.jpg'
 import boss from '../assets/image/boss.jpg'
@@ -10,7 +10,7 @@ function Home(){
         <div>
         <section className=" container 1pic relative mx-auto max-w-85 bg-white ">
           <div className="text-blue-500 relative" >
-              <img src={b2} className=" h-[95vh] w-full "/>
+              <img src={bg1} className=" h-[95vh] w-full "/>
                   <div className="absolute inset-0 flex-col flex items-center justify-center">
                    <p className="text-emerald-300 text-5xl font-bold">Welcome</p>
                    <p className="text-emerald-300 text-5xl font-bold mt-4">to JJM soap and detergents manufacturing</p>
@@ -127,12 +127,12 @@ function Home(){
           <div className="w-30 px-50 text-center sm:p-8 dark:bg-gray-100  ">
           <hr className="h-px my-1 bg-gray-200 border-0 dark:bg-gray-800"></hr>
               <h5 className="mb-2 text-3xl font-bold text-gray-900 dark:text-gray-900">Mission</h5>
-              <p className="mb-5 text-base text-gray-900 sm:text-lg ">Two provide high-quality, eco-friendly dishwashing solutions that effectively clean, protect, and care for your kitchenware, while promoting sustainability and improving everyday lives through safe, natural ingredients.</p>
+              <p className="mb-5 text-base text-gray-900 sm:text-lg ">Description</p>
           </div>
           <div className="w-30 px-50 text-center sm:p-8 dark:bg-gray-100  ">
           <hr className="h-px my-1 bg-gray-200 border-0 dark:bg-gray-800"></hr>
               <h5 className="mb-2 text-3xl font-bold text-gray-900 dark:text-gray-900">Vission</h5>
-              <p className="mb-5 text-base text-gray-900 sm:text-lg ">To be a leader in eco-conscious dishwashing products, inspiring households globally to adopt greener cleaning habits while contributing to a healthier planet and a safer home environment.</p>
+              <p className="mb-5 text-base text-gray-900 sm:text-lg ">Description</p>
           </div>
           </div>
       </section>
